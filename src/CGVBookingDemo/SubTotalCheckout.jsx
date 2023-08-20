@@ -40,20 +40,20 @@ const SubTotalCheckout = () => {
                 <h4 className='row'>Tổng cộng</h4>
                 <div className='row grid grid-cols-4 font-normal'>
                     <div className=''>STD</div>
-                    <div className='col-span-2'>{totalChecking},00 đ</div>
+                    <div className='col-span-2'>{totalChecking}đ</div>
                     <div></div>
                 </div>
-                <div className='row total'>{totalChecking},00 đ</div>
+                <div className='row total'>{totalChecking}đ</div>
             </SubTotalBlock>
 
             <SubTotalBlock>
                 <h4 className='row'>Khuyến mãi</h4>
-                <div className='row total'>0,00 đ</div>
+                <div className='row total'>0đ</div>
             </SubTotalBlock>
 
             <SubTotalBlock>
                 <h4 className='row subtotal'>Tổng số tiền thanh toán</h4>
-                <div className='row total'>{totalChecking},00 đ</div>
+                <div className='row total'>{totalChecking}đ</div>
             </SubTotalBlock>
         </div>
     );

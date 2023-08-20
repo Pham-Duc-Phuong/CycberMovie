@@ -102,15 +102,15 @@ const ResultBooking = ({ direct }) => {
             <div className='font-bold'>
                 <div>
                     <ResultTitle>Giá vé</ResultTitle>
-                    <span>{totalChecking},00 ₫</span>
+                    <span>{totalChecking}₫</span>
                 </div>
                 <div>
                     <ResultTitle>Combo</ResultTitle>
-                    <span>0,00 ₫</span>
+                    <span>0₫</span>
                 </div>
                 <div>
                     <ResultTitle>Tổng</ResultTitle>
-                    <span>{totalChecking},00 ₫</span>
+                    <span>{totalChecking}₫</span>
                 </div>
             </div>
             <Link

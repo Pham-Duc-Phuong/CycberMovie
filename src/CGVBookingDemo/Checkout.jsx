@@ -6,7 +6,7 @@ import ResultBooking from './ResultBooking';
 
 const Checkout = () => {
     return (
-        <div className='bg-[#fdfcf0]'>
+        <div>
             <div className='max-w-screen-lg mx-auto py-[30px]'>
                 <h1 className='bg-[#231d1c] text-white font-bold text-lg text-center p-1.5'>THANH TOÁN</h1>
                 <div className='my-[30px] flex gap-5'>
